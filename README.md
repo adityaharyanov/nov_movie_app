@@ -10,14 +10,14 @@ A new Flutter project.
 
 This project is mainly using MVVM + Repository Pattern
 
-# MVVM
+### MVVM
 This project use GetX as the state management also as the main helper for MVVM binding using it's RxType & Obx widget to bind properties and widget
 Layered by file
 `presentation/*.page.dart` -> View
 `presentation/*.viewmodel.dart` -> Viewmodel
 `domains/*.model.dart` -> model
 
-# Repository Pattern
+### Repository Pattern
 Repository exist as data layer of the project, it responsible to provide and process data to presentation layer so presentation layer doesn't need to know implementation detail of the data.
 Repository also as bridge for multi DataProvider communitation for example API Data & Local Data.
 
