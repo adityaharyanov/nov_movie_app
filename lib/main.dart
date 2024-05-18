@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:nov_movie_app/router/app.router.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 }
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Nov Movie App',
       debugShowCheckedModeBanner: true,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.blueGrey.shade700,
       ),
 
       // Router Config
